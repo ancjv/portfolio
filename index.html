@@ -16,6 +16,10 @@
 	 <!-- Show Loading -->
 	 	<div class="loader">
 	 		<div class=""></div>
+	 		<script> $(window).on('load', function(){
+			$(".loader").fadeOut(1000);
+			$(".content").fadeIn(1000)
+		})></script>
 	 	</div>
 
 
@@ -479,10 +483,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</footer>
 
 		<!-- Scripts -->
-			<script> $(window).on('load', function(){
-			$(".loader").fadeOut(1000);
-			$(".content").fadeIn(1000)
-		})></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
