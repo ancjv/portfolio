@@ -9,8 +9,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</head>
 	<body class="is-preload">
+
+	 <!-- Show Loading -->
+	 	<div class="loader">
+	 		<div class=""></div>
+	 	</div>
+
 
 		<!-- Header -->
 			<header id="header">
@@ -472,6 +479,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</footer>
 
 		<!-- Scripts -->
+			<script> $(window).on('load', function(){
+			$(".loader").fadeOut(1000);
+			$(".content").fadeIn(1000)
+		})></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
