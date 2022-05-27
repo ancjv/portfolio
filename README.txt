@@ -1,3 +1,7 @@
-Strata Theme
-===================
-This is a main template of my portafolio
+v1 Portfolio 
+
+
+
+
+Personal website + blog reponsive 
+Check my website https://angelcampo.xyz/ for live demo
